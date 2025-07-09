@@ -1,0 +1,203 @@
+/*=====================================================================================================
+Geral
+=======================================================================================================*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+
+}
+
+section h2 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+
+
+/*
+===========================================================================================================
+Hearder
+===========================================================================================================*/
+
+header nav ul li {
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main section h2 {
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+
+
+/*=============================================================================================================
+Banner
+================================================================================================================*/
+section.banner {
+    text-align: center;
+    margin: 0 5vw 0 5vw;
+}
+
+section.banne img {
+    width: 40%;
+}
+
+section.banner h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2px 0 20px 0;
+}
+
+section.banner p {
+    margin: 25px 0 25px 0;
+}
+
+section.banner p button {
+    background: #ff6464;
+    color: white;
+    border: none;
+    font-size: 1.6rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5%;
+
+}
+
+/*=======================================================================================================
+Posts
+=========================================================================================================*/
+section.posts {
+    background-color: #EDF7FA;
+    padding: 20px 20px 20px 20px;
+}
+
+section.posts ul li {
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px 10px 20px 10px;
+}
+
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.7rem
+}
+
+section.posts ul li p {
+    font-size: 1.3rem;
+    margin: 15px 0px 15px 0px;
+    line-height: 1.5rem;
+}
+
+/*==================================================================================================
+Works
+====================================================================================================*/
+
+section.works {
+    padding: 20px 10px 20px 10px;
+}
+
+section.works ul li h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 20px 10px 20px 10px;
+}
+
+section.works ul li {
+    font-size: 1.25rem;
+    padding: 10px 15px 10px 15px;
+}
+
+section.works ul li p.info {
+    color: #8695a4;
+    margin: 0 0 20px 0;
+}
+
+section.works ul li p span {
+    background-color: #142850;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+
+
+section.works li {
+    padding: 0px 20px 0px 20px;
+}
+
+/*=================================================================================
+footer
+==================================================================================*/
+
+footer {
+    text-align: center;
+    padding: 20vw 0px 10vw 0px;
+}
+
+footer nav p a {
+    color: #21243d;
+    font-size: 1.9rem;
+    margin: 0px 5px 0px 5px;
+}
+
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    
+    header {
+        padding: 2vw 2vw 2vw 2vw;
+    }
+
+    header nav ul {
+        display: flex;
+        justify-content: right;
+        margin: 2.5vw 2.5vw 2.5vw 2.5vw;
+    }
+
+    header nav ul li {
+        margin: 0 20px 0 20px;
+    }
+
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 10vw 0 10vw;
+    }
+
+
+section.banner div.texto {
+    /*width: 50%;*/
+    text-align: left;
+    padding: 0 10vw 0 0;
+} 
+
+section.banner img {
+    width: 16vw;
+}
+section.posts ul {
+   display: flex;
+   margin: 1vw 0 1vw 0;
+}
+
+section.posts {
+  padding: 3vw 10vw 3vw 10vw;
+}
+
+section.posts ul li {
+margin: 0 1vw 0 1vw;
+}
+section.works{
+ padding: 3vw 10vw 3vw 10vw; 
+}
+section.works ul {
+display: flex;
+}
+ 
+}
