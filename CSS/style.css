@@ -31,10 +31,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
-main section h2 {
-    text-align: left;
-    padding: 0 10px 0 10px;
-}
+
 
 
 
@@ -147,6 +144,53 @@ footer nav p a {
     font-size: 1.9rem;
     margin: 0px 5px 0px 5px;
 }
+
+
+
+/*=================================================================================
+página works
+==================================================================================*/
+section.ft-works  {
+padding: 0vw 19vw 0vw 19vw;
+
+}
+
+section.ft-works h1 {
+color: black;
+font-size: 2rem;
+margin: 40px 20px 40px 20px;
+text-align: left;
+}
+
+section.ft-works h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: left;
+    margin: 15px 20px 40px 15px;
+}
+
+section.ft-works p span{
+background-color: #ff6464;
+    color: white;
+    padding: 10px 10px 5px 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 10px 20px 10px 20px;
+}
+
+section.ft-works p {
+ margin: 25px 0 25px 0;
+ padding: 10px 0px 10px 0px;
+ font-size: larger;
+}
+
+/*==============================================================
+footer
+=======================================================*/
+footer nav {
+margin: 10px 8px 10px 8px;
+}
+
 
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 900px) {
